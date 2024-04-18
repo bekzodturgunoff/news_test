@@ -28,14 +28,18 @@ ul,
 .hero-left-text,
 .hero-container,
 .hero-left-info,
-.hero-right {
+.hero-right,
+.articles,
+.article,
+.article-text {
   display: flex;
   justify-content: space-between;
 }
 
 .hero-left,
 .hero-left-info,
-.hero-right {
+.hero-right,
+.article-text {
   flex-direction: column;
 }
 
@@ -126,4 +130,26 @@ ul {
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
   border-bottom: 1px solid var(--dark-grayish-blue);
+}
+
+.articles {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.article {
+  align-items: center;
+  gap: 1rem;
+}
+
+.article-img img {
+  width: 100px;
+}
+
+.article-text {
+  gap: 6px;
+}
+.article-text h1,
+p {
+  color: var(--dark-grayish-blue);
 }
